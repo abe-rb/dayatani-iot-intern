@@ -2,7 +2,7 @@
 #include "battery.h"
 
 int analogPin = A0;         // ADC Pin
-float adcValue
+float adcValue;
 
 /* Read the adc pin to get the battery voltage */      
 float battery_read_voltage() {
